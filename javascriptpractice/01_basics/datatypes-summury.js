@@ -39,3 +39,23 @@ const myFunction=function(){
 console.log(typeof(bigNumber));
 console.log(typeof(outsideTemp));
 console.log(typeof(myFunction)); //function return type is object Function
+
+
+//stack(primitive),heap(non primitive)
+let myYouTubenmae="nationalmedias"
+
+let anotherName=myYoutubename
+anotherName="chaiaurcode"
+console.log(anoterName);
+
+let userOne={
+    email:"user@google.com",
+    upi:"user!ybl"
+}
+
+let userTwo=userOne
+    
+userTwo.email="hitesh@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
