@@ -9,9 +9,9 @@ const isLoggedIn=false
 const outsideTemp=null  //data type of null is object
 let userEmail;
 
-const id=Symbol('123')
+const id=Symbol('123') //for declare symbol
 const anotherId=Symbol('123')
-conole.log(id==anotherId);
+conole.log(id==anotherId); //they both are diffenrent until they have same value 
 
 
 const bigNumber=23455363649335n
